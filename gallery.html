@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rozha+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lexend:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+
+<body>
+    <header class="navbar">
+
+        <div class="navbar-left">
+            <a href="index.html">
+                <img src="images/NLlogo.png" class="logo">
+            </a>
+        </div>
+    
+        <input type="checkbox" id="menu-toggle">
+    
+        <label for="menu-toggle" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    
+        <div class="navbar-center">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+
+    <div class="text-wrap">
+        <h1>Gallery</h1>
+    </div>
+
+        <section class="section salon-gallery gallery-wrapper">
+
+            <h2 class="section-title">Salon</h2>
+          
+            <div class="main-display">
+              <img class="main-image" src="images/salon1.jpg" alt="">
+            </div>
+          
+            <div class="thumbs">
+              <img class="thumb active" src="images/salon1.jpg" data-large="images/salon1.jpg">
+              <img class="thumb" src="images/salon2.jpg" data-large="images/salon2.jpg">
+              <img class="thumb" src="images/salon3.jpg" data-large="images/salon3.jpg">
+            </div>
+          
+        </section>
+
+        <section class="section nails-gallery gallery-wrapper">
+
+            <h2 class="section-title">Nails</h2>
+          
+            <div class="main-display">
+              <img class="main-image" src="images/nails1.jpg" alt="">
+            </div>
+          
+            <div class="thumbs">
+              <img class="thumb active" src="images/nails1.jpg" data-large="images/nails1.jpg">
+              <img class="thumb" src="images/nails2.jpg" data-large="images/nails2.jpg">
+              <img class="thumb" src="images/nails3.jpg" data-large="images/nails3.jpg">
+              <img class="thumb" src="images/nails4.jpg" data-large="images/nails4.jpg">
+            </div>
+          
+        </section>
+
+</body>
+</html>
